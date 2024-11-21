@@ -1,0 +1,66 @@
+body{
+    font-family: "Playfair Display", serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,65,1) 70%, rgba(52,52,52,1) 100%); 
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+#parrafoIntro{
+    text-align: center;
+}
+.porcionPantallaJustificado{
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+}
+.imgP{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.porcionPantallaJustificado a{
+    text-decoration: none;
+    color: gold;
+}
+.porcionPantallaJustificado a:hover{
+    color: goldenrod;
+}
+ul li, ol li{
+    padding: 0.2em;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+table thead{
+    background-color: grey;
+}
+table tbody tr td{
+    text-align: justify;
+    border: 1px solid white;
+}
+.porcionPantallaJustificado input{
+    width: 100%;
+}
+.porcionPantallaJustificado button{
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.porcionPantallaJustificado button:hover{
+    background-color: aqua;
+    color: black;
+}
